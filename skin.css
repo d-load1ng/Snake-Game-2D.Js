@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "8BIT";
+  src: url(./Font/8-BITWONDER.TTF);
+}
+@font-face {
+    
+  font-family: "Pixel";
+  src: url(./Font/pixelmix.ttf);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Trebuchet MS";
+  color: rgb(46, 199, 25);
+}
+h1 {
+  font-size: 40px;
+  font-family: "8BIT";
+  text-shadow: 0 0 1px #000000, 0 0 3px #8900be;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+canvas {
+  border: 10px ridge rgba(165, 102, 238, 0.479);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#scoreBox {
+  position: center;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Pixel";
+}
+
+#HighScore {
+  position: center;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "Pixel";
+  margin-top: 10px;
+}
+
+#LEVEL {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "8BIT";
+  margin-top: 10px;
+  text-shadow: 0 0 1px #000000, 0 0 3px #8900be;
+}
